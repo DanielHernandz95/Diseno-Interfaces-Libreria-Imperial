@@ -1,0 +1,13 @@
+.menus{
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 29%;
+}
+.menubars{
+    position: absolute;
+    width: 69%;
+}

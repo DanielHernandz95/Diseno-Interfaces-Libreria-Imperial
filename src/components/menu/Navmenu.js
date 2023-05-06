@@ -7,7 +7,18 @@ const Navmenu = () => {
 
     return (
         <div className='menus'>
-            <p>prueba</p>
+            <div className='logo'>
+                <p>logo</p>
+            </div>
+            <div className='menubars'>
+                <div className='menutop'>
+                    <p>menutop</p>
+                </div>
+                <div className='menubottom'>
+                    <p>menubottom</p>
+                </div>
+            </div>
+            
         </div>
 
     );
