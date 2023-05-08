@@ -2,12 +2,72 @@
     height: 100px;
     width: 100%;
     position: relative;
+    background-color: #0D0928;
 }
+
 .logo{
+    left: 0;
     position: absolute;
-    width: 29%;
+    width: 20%;
 }
+
 .menubars{
+    right: 0;
     position: absolute;
-    width: 69%;
+    width: 80%;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    letter-spacing: -0.017em;
+    color: #FFFFFF;
+}
+
+.menutop{
+    color: #CCCCCC;
+    text-align: right;
+    text-align-last: right;
+}
+
+.menubottom{
+    color: #ffffff;
+}
+
+.navigatortop{
+    text-align-last: right;
+}
+
+.navigatortop ul{
+    display: inline-flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.navigatorbottom {
+    display: flex;
+}
+
+.navigatorbottom ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 0;
+}
+
+.navigatorbottom ul li{
+    padding-right: 18px ;
+    position: static;
+}
+
+.itemmarvel{
+    position: absolute;
+    margin-top: -12%;
+    padding: 60px 0 40px 10px ;
+    background-color:#EF131E;
+}
+.iconosnav{
+    position:absolute;
+    right: 0;
+    float: left;
 }

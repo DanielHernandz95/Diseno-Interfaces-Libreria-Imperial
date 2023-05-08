@@ -1,0 +1,19 @@
+.carru{
+    width: 100%;
+    height: 40%;
+    margin: 0 0;
+}
+
+.carousel-control-prev-icon {
+    color: black;
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+    color: black;
+}
