@@ -1,19 +1,44 @@
 .carru{
     width: 100%;
-    height: 40%;
+    height: 664px;
     margin: 0 0;
 }
 
+.carousel-control-prev {
+    display: none;
+}
+
 .carousel-control-prev-icon {
-    color: black;
-    background-color: black;
+    color: transparent;
+}
+
+.carousel-control-next {
+    display: none;
 }
 
 .carousel-control-next-icon {
-    background-color: black;
+    display: none;
 }
 
 .h3, h3 {
     font-size: 1.75rem;
     color: black;
+}
+
+.sectionone{
+    background-image: url("Section.png");
+    height: 443px;
+}
+
+.titlesection{
+display: block;
+text-align-last: left;
+margin-left: 1em;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: bolder;
+font-size: 64px;
+line-height: 75px;
+letter-spacing: -0.02em;
+color: #C9C9C6;
 }

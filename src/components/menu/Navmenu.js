@@ -1,6 +1,10 @@
 import React from "react";
 import './Navmenu.css';
 import logoimperial from './logo-imperial.png';
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
@@ -34,9 +38,13 @@ const Navmenu = () => {
                         </div>
                         <div className="iconosnav">
                             <ul>
-                                <li>lupa</li>
-                                <li>carrito</li>
-                                <li>user</li>                            
+                                <li>
+                                    <div className='search'>   
+                                        <FontAwesomeIcon icon={faMagnifyingGlass} />
+                                     </div>
+                                </li>                                
+                                <li><FontAwesomeIcon icon={faUser} /></li>     
+                                <li><FontAwesomeIcon icon={faCartShopping} /></li>                       
                             </ul>
                         </div>
                         
