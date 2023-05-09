@@ -11,19 +11,19 @@ import {
 
 const items = [
   {
-    src: require('./imagebanner.png'),
+    src: require('./Banner.png'),
     altText: '',
-    caption: ''
+    caption: 'UNA TIENDA PARA HÉROES'
   },
   {
-    src: require('./Section.png'),    
+    src: require('./Banner2.png'),    
     altText: '',
-    caption: ''
+    caption: 'LOS MEJORES COMICS DEL MULTIVERSO'
   },
   {
-    src: require('./imagebanner.png'),    
+    src: require('./Banner3.png'),    
     altText: '',
-    caption: ''
+    caption: 'DARK SIDE OF COMICS '
   }
 ];
 
@@ -73,8 +73,8 @@ class BannerHome extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} className="carru"  />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <img src={item.src} alt={item.altText}  className="carru"  />
+          <CarouselCaption captionText={item.caption}  className="carrutext" />
         </CarouselItem>
       );
     });
