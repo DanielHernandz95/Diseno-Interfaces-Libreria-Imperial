@@ -38,12 +38,14 @@ export default function ComicResults({ comics } ) {
 
     return (
         <>
+        <div className='App'>
             <div><Navmenu /></div>
             <div className="comics">
                 <h1> COMICS </h1>
                 <div className="container-comics" id="cardsContainer"></div>
             </div>
             <div className='footerpage'><Footerpage /></div>
+            </div>
         </>
     )
   }

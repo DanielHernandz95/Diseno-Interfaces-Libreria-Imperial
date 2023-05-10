@@ -31,7 +31,7 @@ const Navmenu = () => {
                             <ul>
                                 <li>Novedades</li>
                                 <li>
-                                    <a style={{textDecoration: 'none'}} href="/comics">
+                                    <a className="itemmenu" href="/comics">
                                         Comics
                                     </a>
                                 </li>

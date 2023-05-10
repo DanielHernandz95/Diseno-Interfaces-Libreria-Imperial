@@ -54,7 +54,8 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #000000;
+    border: solid 1px #cccccc;
     margin-right: 15px;
     color: #202020;
     transition: all 0.3s ease;

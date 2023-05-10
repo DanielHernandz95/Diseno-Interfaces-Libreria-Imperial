@@ -9,6 +9,7 @@ const Home = () => {
 
     return (
         <>
+        <div className="App">
             <div><Navmenu /></div>
             <div className='home'>
                 <div className="bannerhome"><BannerHome /></div>
@@ -17,6 +18,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='footerpage'><Footerpage /></div>
+        </div>
         </>
     );
 }

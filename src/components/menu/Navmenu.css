@@ -75,3 +75,12 @@
     margin-right: 5%;
     size: 20px;
 }
+
+.itemmenu{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.itemmenu:hover{
+    color: #EF131E;
+}
