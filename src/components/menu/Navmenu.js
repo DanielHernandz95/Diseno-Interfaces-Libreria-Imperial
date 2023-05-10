@@ -13,7 +13,7 @@ const Navmenu = () => {
     return (
         <div className='menus'>
             <div className='logo'>
-            <img src={logoimperial} alt="logoimperial" className='logoimperial' id="logoimperial" />
+            <a href="/"><img src={logoimperial} alt="logoimperial" className='logoimperial' id="logoimperial" /></a>
             </div>
             <div className='menubars'>
                 <div className='menutop'>
@@ -30,7 +30,11 @@ const Navmenu = () => {
                         <div>
                             <ul>
                                 <li>Novedades</li>
-                                <li>Comics</li>
+                                <li>
+                                    <a style={{textDecoration: 'none'}} href="/comics">
+                                        Comics
+                                    </a>
+                                </li>
                                 <li>Catálogo</li>
                                 <li className="itemmarvel">Marvel</li>
                                 <li>Figuras de acción</li>

@@ -1,16 +1,19 @@
 
 import './App.css';
-import Navmenu from './components/menu/Navmenu';
-import Footerpage from './components/footer/Footerpage';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
+import ComicResults from './components/Comics/ComicResults';
+import './components/Home/Home.css';
+import './components/menu/Navmenu.css';
 
 function App() {
   return (
-    <div className="App">
-      <div><Navmenu /></div>
-      <div><Home /></div>
-      <div className='footerpage'><Footerpage /></div>
-    </div>
+    <>
+       <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/comics" element={<ComicResults/>} />
+       </Routes>
+    </>
   );
 }
 
