@@ -1,7 +1,6 @@
 import React from "react";
 import './Home.css';
 import BannerHome from './Banner';
-
 import Navmenu from '../menu/Navmenu';
 import Footerpage from '../footer/Footerpage';
 
