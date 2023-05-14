@@ -49,13 +49,9 @@ const Navmenu = () => {
                             </div>
                             <div className="iconosnav">
                                 <ul>
-                                    <li>
-                                        <div className='search'>   
-                                            <FontAwesomeIcon icon={faMagnifyingGlass} />
-                                        </div>
-                                    </li>                                
-                                    <li><FontAwesomeIcon icon={faUser} /></li>     
-                                    <li><FontAwesomeIcon icon={faCartShopping} /></li>                       
+                                    <li className="iconos"><FontAwesomeIcon icon={faMagnifyingGlass} /></li>                                
+                                    <li className="iconos"><FontAwesomeIcon icon={faUser} /></li>     
+                                    <li className="iconos"><FontAwesomeIcon icon={faCartShopping} /></li>                       
                                 </ul>
                             </div>                            
                         </nav>
