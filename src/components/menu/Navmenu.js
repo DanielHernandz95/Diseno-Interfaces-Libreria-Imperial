@@ -41,7 +41,7 @@ const Navmenu = () => {
                                     <div id="dropdownm" className="dropdownm"><MenuDropDowncom /></div>
                                     <li className="itemmenu"><a href="/series">Series</a></li>
                                     <div id="dropdownm" className="dropdownm"><MenuDropDowncat /></div>
-                                    <li id="itemmarvel" className="itemmarvel itemmenu">Marvel</li>
+                                    <li id="itemmarvel" className="itemmarvel itemmenu"><a href="https://www.marvel.com/">Marvel</a></li>
                                     <div id="dropdownm" className="dropdownm"><MenuDropDownmar /></div>
                                     <li className="itemmenu"><a href="/personajes">Personajes</a></li>
                                     <div id="dropdownm" className="dropdownm"><MenuDropDownper /></div>

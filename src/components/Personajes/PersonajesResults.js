@@ -7,7 +7,7 @@ export default function PersonajesResults({personajes}) {
     async function fetchdata  () {
 
         const apiPersonajes = await fetch('https://gateway.marvel.com:443/v1/public/characters?orderBy=name&limit=40&apikey=ce5e35bd1877a12f428c86ef6cb4c39e&ts=1&hash=083897e2f6ed21de6b319359948daff6');
-        
+
         const apiPersonajesResult = await apiPersonajes.json();
 
         const {data} = apiPersonajesResult;
@@ -15,9 +15,7 @@ export default function PersonajesResults({personajes}) {
         document.getElementById("cardsContainer").innerHTML = "";
 
         const results = data.results; 
-
-        console.log(results);
-
+        
         let card = "";
 
         results.map((personaje, index) => {
@@ -46,7 +44,7 @@ export default function PersonajesResults({personajes}) {
         <div className='App'>
             <div><Navmenu /></div>
             <div className="personajes">
-                <h1> Personajes </h1>
+                <h1> PERSONAJES </h1>
                 <div className="container-personajes" id="cardsContainer"></div>
             </div>
             <div className='footerpage'><Footerpage /></div>
