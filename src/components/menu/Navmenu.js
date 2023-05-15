@@ -27,7 +27,7 @@ const Navmenu = () => {
                             <ul>
                                 <li>Ayuda</li>
                                 <li>Contacto</li>
-                                <li>Registrarse</li>                            
+                                <li><a href="/registro">Registrarse</a></li>                            
                             </ul>
                         </nav>
                     </div>
@@ -49,7 +49,7 @@ const Navmenu = () => {
                             </div>
                             <div className="iconosnav">
                                 <ul>
-                                    <li className="iconos"><FontAwesomeIcon icon={faMagnifyingGlass} /></li>                                
+                                    <li className="iconos"><a href="/login"> <FontAwesomeIcon icon={faMagnifyingGlass} /></a></li>                                
                                     <li className="iconos"><FontAwesomeIcon icon={faUser} /></li>     
                                     <li className="iconos"><FontAwesomeIcon icon={faCartShopping} /></li>                       
                                 </ul>
