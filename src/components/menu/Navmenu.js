@@ -39,11 +39,11 @@ const Navmenu = () => {
                                     <div id="dropdownm" className="dropdownm"><MenuDropDownnov /></div>
                                     <li className="itemmenu"><a  href="/comics">Comics</a></li>
                                     <div id="dropdownm" className="dropdownm"><MenuDropDowncom /></div>
-                                    <li className="itemmenu">Catálogo</li>
+                                    <li className="itemmenu"><a href="/series">Series</a></li>
                                     <div id="dropdownm" className="dropdownm"><MenuDropDowncat /></div>
                                     <li id="itemmarvel" className="itemmarvel itemmenu">Marvel</li>
                                     <div id="dropdownm" className="dropdownm"><MenuDropDownmar /></div>
-                                    <li className="itemmenu">Personajes</li>
+                                    <li className="itemmenu"><a href="/personajes">Personajes</a></li>
                                     <div id="dropdownm" className="dropdownm"><MenuDropDownper /></div>
                                 </ul>
                             </div>

@@ -6,7 +6,7 @@ const MenuDropDowncat = () => {
 
     return (
         <div className='dropdownmenu'>
-           <p className="titulomenu">Catálogo</p>
+           <p className="titulomenu">Series</p>
             <div className="menucards">
                 <div className="panelcards">
                     <div className="card cards">
