@@ -16,7 +16,7 @@ import MenuDropDownper from '../MenuDropdown/menudropdownper';
 const Navmenu = () => {    
 
     return (
-        <div>
+        <div className="containermenu">
             <div className='menus'>
                 <div className='logo'>
                 <a href="/"><img src={logoimperial} alt="logoimperial" className='logoimperial' id="logoimperial" /></a>
@@ -33,24 +33,24 @@ const Navmenu = () => {
                     </div>
                     <div className='menubottom'>                    
                         <nav className="navigatorbottom">
-                            <div>
+                            <div className="navigator"> 
                                 <ul>
                                     <li className="itemmenu">Novedades</li>
-                                    <div id="dropdownm" className="dropdownm"><MenuDropDownnov /></div>
+                                    <div className="dropdownm"><MenuDropDownnov /></div>
                                     <li className="itemmenu"><a  href="/comics">Comics</a></li>
-                                    <div id="dropdownm" className="dropdownm"><MenuDropDowncom /></div>
+                                    <div className="dropdownm"><MenuDropDowncom /></div>
                                     <li className="itemmenu"><a href="/series">Series</a></li>
-                                    <div id="dropdownm" className="dropdownm"><MenuDropDowncat /></div>
-                                    <li id="itemmarvel" className="itemmarvel itemmenu"><a href="https://www.marvel.com/">Marvel</a></li>
-                                    <div id="dropdownm" className="dropdownm"><MenuDropDownmar /></div>
+                                    <div className="dropdownm"><MenuDropDowncat /></div>
+                                    <li className="itemmarvel itemmenu"><a href="https://www.marvel.com/">Marvel</a></li>
+                                    <div className="dropdownm"><MenuDropDownmar /></div>
                                     <li className="itemmenu"><a href="/personajes">Personajes</a></li>
-                                    <div id="dropdownm" className="dropdownm"><MenuDropDownper /></div>
+                                    <div className="dropdownm"><MenuDropDownper /></div>
                                 </ul>
                             </div>
                             <div className="iconosnav">
                                 <ul>
-                                    <li className="iconos"><a href="/login"> <FontAwesomeIcon icon={faMagnifyingGlass} /></a></li>                                
-                                    <li className="iconos"><FontAwesomeIcon icon={faUser} /></li>     
+                                    <li className="iconos"><FontAwesomeIcon icon={faMagnifyingGlass} /></li>                                
+                                    <li className="iconos"><a href="/login"><FontAwesomeIcon icon={faUser} /></a></li>     
                                     <li className="iconos"><FontAwesomeIcon icon={faCartShopping} /></li>                       
                                 </ul>
                             </div>                            
