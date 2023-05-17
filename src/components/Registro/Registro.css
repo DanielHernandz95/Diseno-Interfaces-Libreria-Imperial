@@ -1,0 +1,74 @@
+.App {
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.registro {
+    text-align: center;
+    background-color: #0D0928;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+form {
+    width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Roboto Condensed';
+    font-style: normal; 
+    color: #f2f2f2;   
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-field {
+    margin-bottom: 10px; /* Ajusta la cantidad de espacio inferior según tus necesidades */
+  }
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+    border: 10cap;
+    border-color: 0D0928;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #0D0928;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+    display: block; 
+  }
+  
+  button:hover {
+    background-color: #EF131E;
+    
+ }
