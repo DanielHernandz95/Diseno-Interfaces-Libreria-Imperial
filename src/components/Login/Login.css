@@ -8,14 +8,12 @@
 
 form {
     position: relative;
-    width: 600px;
-    padding: 2% 6%;
+    /*width: 600px;*/
+    /*padding: 2% 6%;*/
     margin: auto;
     border-bottom: solid 2px #0D0928;
     border-top: solid 2px #0D0928;    
 }
-
-
 
 .center {
     display: flex;
@@ -43,13 +41,26 @@ form {
     border: solid 5px #0D0928;
 }
 
+
+
 .crearcuenta{
     padding-top: 3%;
 }
 
+.crearcuenta label{
+    color: #000000;
+}
+
+.crearcuenta a{
+    color: #0D0928;
+    text-decoration: none;
+}
+
+
 .forgot{
 padding-top: 2%;
 }
+
 .forgot label{
     color: #EF131E;
 }

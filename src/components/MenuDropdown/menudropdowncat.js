@@ -9,7 +9,7 @@ const MenuDropDowncat = () => {
 
     return (
         <div className='dropdownmenu'>
-           <p className="titulomenu">CATEGORÍA</p>
+           <p className="titulomenu">SERIES</p>
             <div className="menucards">
                 <div className="panelcards">
                     <div className="card cards">

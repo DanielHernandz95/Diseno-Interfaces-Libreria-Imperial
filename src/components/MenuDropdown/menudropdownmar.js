@@ -9,7 +9,7 @@ const MenuDropDownmar = () => {
 
     return (
         <div className='dropdownmenu'>
-          <p className="titulomenu">Marvel</p>
+          <p className="titulomenu">MARVEL</p>
             <div className="menucards">
                 <div className="panelcards">
                     <div className="card cards">

@@ -9,32 +9,37 @@ export default function Registro() {
     const [email, setEmail] = useState('');
     const [fechaNacimiento, setFechaNacimiento] = useState('');
     const [contrasena, setContrasena] = useState('');
+    const [contrasenaConfirm, setContrasenaConfirm] = useState('');
     const [aceptaTerminos, setAceptaTerminos] = useState(false);
 
     const handleInputChange =(e) => {
-        const { name, value } = e.traget;
-
-        if (name === 'nombres') {
-            setNombres(value);
-          } else if (name === 'apellidos') {
-            setApellidos(value);
-          } else if (name === 'email') {
-            setEmail(value);
-          } else if (name === 'fechaNacimiento') {
-            setFechaNacimiento(value);
-          } else if (name === 'contrasena') {
-            setContrasena(value);
-          }
-        };
-
-        const handleCheckboxChange = (e) => {
-            setAceptaTerminos(e.target.checked);
-          };
         
-          const handleSubmit = (e) => {
-            e.preventDefault();
+        const { name, value } = e.target;
 
-          };
+        switch(name){
+            case 'nombres':
+                setNombres(value);
+            break
+            case 'apellidos':
+                setApellidos(value);
+            break
+            case 'email':
+                setEmail(value);
+            break
+            case 'fechaNacimiento':
+                setFechaNacimiento(value);
+            break
+            case 'contrasena':
+                setContrasena(value);
+            break
+            case 'contrasenaConfirm':
+                setContrasenaConfirm(value);
+            break
+            default:
+                break
+        }
+
+    };
     
     return (
         <> 
@@ -42,7 +47,7 @@ export default function Registro() {
             <div><Navmenu /></div>
             <div className="registro">
                 <h1> REGISTRARSE </h1>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleInputChange}>
                     <div className='fila'>
                         <div className='colone'>
                             <label htmlFor="nombres">Nombres</label>
@@ -74,9 +79,9 @@ export default function Registro() {
                             onChange={(e) => setContrasena(e.target.value)} required/>
                         </div>
                         <div className='coltwo'>
-                            <label htmlFor="fechaNacimiento">Confirmar contraseña </label>
-                            <input type="date" id="fechaNacimiento" value={fechaNacimiento}
-                                onChange={(e) => setFechaNacimiento(e.target.value)} required/>  
+                            <label htmlFor="contrasenaConfirm">Confirmar contraseña </label>
+                            <input type="password" id="contrasenaConfirm" value={contrasenaConfirm}
+                                onChange={(e) => setContrasenaConfirm(e.target.value)} required/>  
                         </div>                      
                     </div>
                     <div className='filaterminos'>

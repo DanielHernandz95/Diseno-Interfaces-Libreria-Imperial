@@ -31,7 +31,7 @@ export default function Login() {
 
         if (username === 'DiseñoInterfaces' && password === 'd1s3ñ0123') {
             console.log('Inicio de sesión exitoso');
-            window.location.href = '/Home';
+            window.location.href = '/';
         } else {
             setError('Nombre de usuario o contraseña incorrectos');
         }
@@ -63,18 +63,18 @@ export default function Login() {
                             </div>
                             <div className="forgot">
                                 <label>
-                                    ¿Olvidaste la contraseña?
+                                    <a href="#"><strong><u className='subrayarTerminos'>¿Olvidaste la contraseña?</u></strong></a>
                                 </label>
                         </div>
                             
                         </form>
                         <div className='crearcuenta'>
                             <label >
-                                ¿Aún no tienes una cuenta?
+                                <a href="#"><strong><u className='subrayarTerminos'>¿Aún no tienes una cuenta?</u></strong></a>
                             </label>                            
                         
                             <div className="center2">
-                                    <button type="submit">Crear Cuenta</button>
+                                <button type="submit">Crear Cuenta</button>
                             </div>
                         </div>
                     </div>

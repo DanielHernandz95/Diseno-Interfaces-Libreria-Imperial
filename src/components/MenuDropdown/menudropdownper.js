@@ -11,7 +11,7 @@ const MenuDropDownper = () => {
 
     return (
         <div className='dropdownmenu'>
-           <p className="titulomenu">Personajes</p>
+           <p className="titulomenu">PERSONAJES</p>
             <div className="menucards">
                 <div className="panelcards">
                     <div className="card cards">
