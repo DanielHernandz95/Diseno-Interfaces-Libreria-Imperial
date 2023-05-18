@@ -43,41 +43,44 @@ export default function Login() {
     return (
         <>
             <div className="App">
-                <div>
-                    <Navmenu />
-                </div>
+                <div><Navmenu /></div>
+                    <div className='login'>
+                        <h1>INICIAR SESIÓN</h1>
+                        <form onSubmit={handleSubmit}>
+                            <div>
+                                <label htmlFor="username">Usuario:</label>
+                                <input type="text" id="username" value={username}
+                                    onChange={handleUsernameChange}/>
+                            </div>
+                            <div>
+                                <label htmlFor="password">Contraseña</label>
+                                <input type="password" id="password" value={password}
+                                    onChange={handlePasswordChange}/>
+                            </div>
+                            {error && <p className="error">{error}</p>}
+                            <div className="center">
+                                <button type="submit">Ingresa</button>
+                            </div>
+                            <div className="forgot">
+                                <label>
+                                    ¿Olvidaste la contraseña?
+                                </label>
+                        </div>
+                            
+                        </form>
+                        <div className='crearcuenta'>
+                            <label >
+                                ¿Aún no tienes una cuenta?
+                            </label>                            
+                        
+                            <div className="center2">
+                                    <button type="submit">Crear Cuenta</button>
+                            </div>
+                        </div>
+                    </div>
                 
-                    <h1>INICIAR SESIÓN</h1>
-                    <form onSubmit={handleSubmit}>
-                        <div>
-                            <label htmlFor="username">Usuario:</label>
-                            <input
-                                type="text"
-                                id="username"
-                                value={username}
-                                onChange={handleUsernameChange}
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="password">Contraseña:</label>
-                            <input
-                                type="password"
-                                id="password"
-                                value={password}
-                                onChange={handlePasswordChange}
-                            />
-                        </div>
-                        {error && <p className="error">{error}</p>}
-                        <div className="center">
-                            <button type="submit">Ingresar</button>
-                        </div>
-                    </form>
-            
-                </div>
-                <div className="footerpage">
-                    <Footerpage />
-                </div>
-            
+                <div className="footerpage"><Footerpage /></div>
+            </div>
         </>
     );
 }

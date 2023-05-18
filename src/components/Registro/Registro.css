@@ -1,15 +1,11 @@
-.App {
-    align-items: center;
-    margin-top: 40px;
-}
+
 
 
 .registro {
     text-align: center;
-    background-color: #0D0928;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5%;
 }
 
 .center {
@@ -19,19 +15,82 @@
   }
 
 form {
-    width: 400px;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    margin: 0 auto;
+    position: relative;
+    width: 800px;
+    padding: 20px 0;
+    margin: auto;
+    border-bottom: solid 2px #0D0928;
+    border-top: solid 2px #0D0928;    
+}
+
+.fila{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    padding-bottom: 5px
+}
+.filaterminos{
+    margin-left: 15%;
+    padding-top: 10px;
+    display: flex;
+    width: 500px;
+    justify-content: center;
     
+}
+.colone{
+    left: 0;
+    width: 45%; 
+    padding-right: 50px; 
+    padding-right: 50px;   
+}
+
+.coltwo{
+    right: 0;
+    width: 45%;
+    padding-left: 50px;  
+}
+
+form a{
+    text-decoration: none;
+    color: #EF131E;
+}
+
+form a:hover{
+    color: #2c1212;
+}
+
+.coltcheck{
+    
+    padding-left: 50px;  
+}
+
+.colterminos{
+    
+    padding-left: 50px;  
+}
+
+.fila label{
+    text-align-last: left;
+}
+
+.fila input{
+    border-radius: 5px;
+}
+
+.colterminos{
+    padding-left: 5%;
+}
+
+.center button{
+    border-radius: 20px 0 20px 0 ;
+    font-weight: 900;
 }
 
 h1 {
     font-size: 30px;
     font-family: 'Roboto Condensed';
     font-style: normal; 
-    color: #f2f2f2;   
+    color:#0D0928; 
 }
 
 label {

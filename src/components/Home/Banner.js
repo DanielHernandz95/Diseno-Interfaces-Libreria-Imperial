@@ -16,14 +16,19 @@ const items = [
     caption: 'UNA TIENDA PARA HÉROES'
   },
   {
-    src: require('./Banner2.png'),    
+    src: require('./Banner2.jpg'),    
     altText: '',
     caption: 'LOS MEJORES COMICS DEL MULTIVERSO'
   },
   {
-    src: require('./Banner3.png'),    
+    src: require('./Banner3.jpg'),    
     altText: '',
-    caption: 'DARK SIDE OF COMICS '
+    caption: 'GRANDES CLASICOS'
+  },
+  {
+    src: require('./Banner4.jpg'),    
+    altText: '',
+    caption: 'AL ESTILO MARVEL '
   }
 ];
 

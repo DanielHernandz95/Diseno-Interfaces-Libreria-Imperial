@@ -1,25 +1,58 @@
-.App {
-    background-color: #0D0928;
-}
-
 .login {
-    margin: 0 auto;
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
+    padding: 5%;
     
 }
+
+form {
+    position: relative;
+    width: 600px;
+    padding: 2% 6%;
+    margin: auto;
+    border-bottom: solid 2px #0D0928;
+    border-top: solid 2px #0D0928;    
+}
+
+
 
 .center {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-  
+.center button{
+    border-radius: 20px 0 20px 0 ;
+    font-weight: 900;
+    padding: 10px 30px;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center2 button{
+    border-radius: 20px 0 20px 0 ;
+    font-weight: 900;
+    padding: 10px 20px;
+    color: #0D0928;
+    background-color:#ffffff ;
+    border: solid 5px #0D0928;
+}
+
+.crearcuenta{
+    padding-top: 3%;
+}
+
+.forgot{
+padding-top: 2%;
+}
+.forgot label{
+    color: #EF131E;
+}
 
 .h1 {
     font-size: 30px;
@@ -42,24 +75,3 @@
     border: 1px solid #ccc;
 }
 
-.login button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.login button[type="submit"]:hover {
-    background-color: #45a049;
-    
-
-}
-
-.login .error {
-    color: red;
-    margin-top: 10px;
-}
